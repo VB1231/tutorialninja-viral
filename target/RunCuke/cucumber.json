@@ -1,0 +1,731 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5470894200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "verifyProductAddedToShoppingCartSuccessFully",
+        "description": "",
+        "id": "desktop-test;verifyproductaddedtoshoppingcartsuccessfully",
+        "after": [
+          {
+            "result": {
+              "duration": 164000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 144895900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on homepage of desktop",
+            "match": {
+              "location": "DesktopSteps.iAmOnHomepageOfDesktop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2119962500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select desktop using show all menu",
+            "match": {
+              "location": "DesktopSteps.iSelectDesktopUsingShowAllMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1262252000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify hp is selected",
+            "match": {
+              "location": "DesktopSteps.iVerifyHpIsSelected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6996010200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I set date",
+            "match": {
+              "location": "DesktopSteps.iSetDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60425800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Add to cart for hp",
+            "match": {
+              "location": "DesktopSteps.iClickOnAddToCartForHp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350811600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify hp is added to cart",
+            "match": {
+              "location": "DesktopSteps.iVerifyHpIsAddedToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 449909500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Add to cart link",
+            "match": {
+              "location": "DesktopSteps.iClickOnAddToCartLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66656700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verify item added to shopping cart",
+            "match": {
+              "location": "DesktopSteps.iVerifyItemAddedToShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34121200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify model of hp",
+            "match": {
+              "location": "DesktopSteps.iVerifyModelOfHp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32354100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify delivery date",
+            "match": {
+              "location": "DesktopSteps.iVerifyDeliveryDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27051600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I verify product numbers",
+            "match": {
+              "location": "DesktopSteps.iVerifyProductNumbers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29069100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify total price",
+            "match": {
+              "location": "DesktopSteps.iVerifyTotalPrice()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@sanity"
+          },
+          {
+            "line": 9,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Desktop Test",
+    "description": "As user I want to login into Tutorial ninja website",
+    "id": "desktop-test",
+    "keyword": "Feature",
+    "uri": "desktop.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Desktop"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3054781000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully",
+        "description": "",
+        "id": "homepage-test;verifyusershouldnavigatetolaptopsandnotebookspagesuccessfully",
+        "after": [
+          {
+            "result": {
+              "duration": 16100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on homepage for homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepageForHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 727873100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on laptop and notebook page from homepage",
+            "match": {
+              "location": "HomePageSteps.iClickOnLaptopAndNotebookPageFromHomepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59913400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I navigate to laptop and note book page",
+            "match": {
+              "location": "HomePageSteps.iNavigateToLaptopAndNoteBookPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@sanity"
+          },
+          {
+            "line": 11,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage Test",
+    "description": "As user I want to login into Tutorial ninja website",
+    "id": "homepage-test",
+    "keyword": "Feature",
+    "uri": "homepage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Homepage"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3242711100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "verifyThatUserPlaceOrderSuccessfully",
+        "description": "",
+        "id": "laptopandnotebook-test;verifythatuserplaceordersuccessfully",
+        "after": [
+          {
+            "result": {
+              "duration": 174825700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on Homepage for laptop and notebook page",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iAmOnHomepageForLaptopAndNotebookPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 657701800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select currency change",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iSelectCurrencyChange()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 728393000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select laptop and notebook page",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iSelectLaptopAndNotebookPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 402152100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select price high to low",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iSelectPriceHighToLow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1366433600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on mac book",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iClickOnMacBook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45117000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify mac book is there",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iVerifyMacBookIsThere()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147489900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on add to cart",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iClickOnAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200224500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify mac book added successfully",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iVerifyMacBookAddedSuccessfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 344004800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on shopping cart into success message",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iClickOnShoppingCartIntoSuccessMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72254900,
+              "error_message": "java.lang.StackOverflowError\r\n\tat java.lang.StringBuilder.append(StringBuilder.java:136)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat com.tutorialsninja.pages.LaptopsAndNoteBooksPage.verifyTextMacBookInShopping(LaptopsAndNoteBooksPage.java:155)\r\n\tat ✽.And I verify in shopping cart mac book(laptopandnotebook.feature:19)\r\n",
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "I verify in shopping cart mac book",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iVerifyInShoppingCartMacBook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I change quantity",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iChangeQuantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I verify shopping cart modified",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iVerifyShoppingCartModified()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I verify total price for mac book",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iVerifyTotalPriceForMacBook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I click on check out",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iClickOnCheckOut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I verify check out is there",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iVerifyCheckOutIsThere()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I verify is new customer",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iVerifyIsNewCustomer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I select as guest check out",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iSelectAsGuestCheckOut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I register all mandatory field",
+            "match": {
+              "location": "LaptopAndNoteBooksSteps.iRegisterAllMandatoryField()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@sanity"
+          },
+          {
+            "line": 8,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "LaptopAndNoteBook Test",
+    "description": "",
+    "id": "laptopandnotebook-test",
+    "keyword": "Feature",
+    "uri": "laptopandnotebook.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LaptopAndNotebook"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3069496200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "verifyThatUserRegisterAccountSuccessfully",
+        "description": "",
+        "id": "myaccount-test;verifythatuserregisteraccountsuccessfully",
+        "after": [
+          {
+            "result": {
+              "duration": 20000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on home page for account",
+            "match": {
+              "location": "MyAccountSteps.iAmOnHomePageForAccount()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21055662600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on my account from homepage \"Register\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 37
+                }
+              ],
+              "location": "MyAccountSteps.iClickOnMyAccountFromHomepage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1400080700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I fill all register field",
+            "match": {
+              "location": "MyAccountSteps.iFillAllRegisterField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41463300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify account created",
+            "match": {
+              "location": "MyAccountSteps.iVerifyAccountCreated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 324795100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on continue account",
+            "match": {
+              "location": "MyAccountSteps.iClickOnContinueAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 586447400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on my account from homepage \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 37
+                }
+              ],
+              "location": "MyAccountSteps.iClickOnMyAccountFromHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50098500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify logout",
+            "match": {
+              "location": "MyAccountSteps.iVerifyLogout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 362955500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on continue",
+            "match": {
+              "location": "MyAccountSteps.iClickOnContinue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@sanity"
+          },
+          {
+            "line": 11,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "MyAccount Test",
+    "description": "As user I want to login into Tutorial ninja website",
+    "id": "myaccount-test",
+    "keyword": "Feature",
+    "uri": "myacc.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@myaccount"
+      }
+    ]
+  }
+]
